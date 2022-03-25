@@ -16,7 +16,7 @@ Rails.application.routes.draw do
 
   # 有人加入群組時的歡迎訊息
   get "memberJoined", to: "home#member_join"
-  get "哈" , "yoyo"
+  get "哈" , ""home#yoyo"
 
   # todo
   resources :todos
