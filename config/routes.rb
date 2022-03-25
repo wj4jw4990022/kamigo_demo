@@ -29,7 +29,6 @@ Rails.application.routes.draw do
   get "(*location)天氣(*other)", to: "weather#show"
 
   # 學說話
-  keyword = "123"
   get "學 (*keyword) (*message)", to: 'home#learn'
       
 
